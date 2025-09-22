@@ -8,6 +8,8 @@ function StartGameScreen() {
         maxLength={2}
         keyboardType='number-pad'
         style={styles.numberInput}
+        autoCapitalize='none'
+        autoCorrect={false}
       />
       <PrimaryButton>RESET</PrimaryButton>
       <PrimaryButton>CONFIRM</PrimaryButton>
